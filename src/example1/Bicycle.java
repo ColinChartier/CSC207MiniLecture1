@@ -5,7 +5,7 @@ package example1;
  */
 public class Bicycle {
     /** In Bicycle, we define 'counter' to be the number of Bicycles that exist.*/
-    public int counter = 0;
+    public static int counter = 0;
 
     /** Drag is how much we slow down between pedal pumps.*/
     protected final int drag;
