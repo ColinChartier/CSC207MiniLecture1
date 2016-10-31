@@ -17,7 +17,7 @@ public class Bicycle {
         //We haven't 'qualified' this variable, which means that
         //Java will first look for a local variable or parameter called counter
         //[which doesn't exist here]
-        //and then either instance or static variables called 'bicycle'
+        //and then either instance or static variables called 'counter'
         //[oh look! a 'public static int counter!']
         counter++;
 
